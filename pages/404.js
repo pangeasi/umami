@@ -6,9 +6,9 @@ export default function Custom404() {
   return (
     <Layout>
       <div className="row justify-content-center">
-        <h1>
+        <h2>
           <FormattedMessage id="message.page-not-found" defaultMessage="Page not found" />
-        </h1>
+        </h2>
       </div>
     </Layout>
   );
